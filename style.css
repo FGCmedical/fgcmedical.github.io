@@ -1,47 +1,211 @@
-body {
+/* 🔹 Reset básico */
+* {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-}
-
-.sidebar {
-  width: 250px;
-  background-color: #023e8a;
-  color: white;
-  padding: 20px;
-  height: 100vh;
-  position: fixed;
-}
-
-.sidebar .logo {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-
-.sidebar ul {
-  list-style: none;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.sidebar a {
-  color: white;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 🔹 Barra superior */
+.top-bar {
+  background-color: #004d40;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.top-bar a {
+  color: #fff;
   text-decoration: none;
-  display: block;
-  padding: 10px 0;
   font-weight: bold;
 }
 
-.contenido {
-  margin-left: 270px;
-  padding: 40px;
-  background-color: #f9f9f9;
-  flex-grow: 1;
+.top-bar i {
+  margin-right: 5px;
 }
 
-details {
+/* 🔹 Encabezado principal */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 2px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #004d40;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-nav a:hover {
+  color: #00796b;
+}
+
+/* 🔹 Buscador */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  background-color: #004d40;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #00796b;
+}
+
+/* 🔹 Secciones */
+.section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #004d40;
   margin-bottom: 20px;
-  background-color: #fff;
-  padding: 15px;
+  font-size: 28px;
+}
+
+/* 🔹 Video */
+.video-container {
+  margin-bottom: 30px;
+}
+
+/* 🔹 Galería de fotos */
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  max-width: 400px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 🔹 Mapa y redes */
+.map-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.map iframe {
+  border: none;
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+}
+
+.social-contact {
+  flex: 1;
+  font-size: 16px;
+}
+
+/* 🔹 Listas */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* 🔹 Tarjetas de médicos */
+.medico-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.medico-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.medico-info {
+  flex: 1;
+}
+
+/* 🔹 Footer */
+footer {
+  background-color: #004d40;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .map-social {
+    flex-direction: column;
+  }
+
+  .medico-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .medico-card img {
+    margin-bottom: 10px;
+  }
 }
