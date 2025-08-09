@@ -2,113 +2,74 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Centro de Especialidades Médicas FGC Medical</title>
+  <title>FGC Medical – Centro de Especialidades</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Logo FGC Medical" width="120">
-    <h1>Centro de Especialidades Médicas FGC Medical</h1>
-    <p>Ubicado en San Pedro de Licán, Riobamba – Ecuador</p>
+  <aside class="sidebar">
+    <img src="assets/logo.png" alt="Logo FGC Medical" class="logo">
     <nav>
       <ul>
-        <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#especialidades">Especialidades</a></li>
-        <li><a href="#servicios">Servicios</a></li>
         <li><a href="#medicos">Médicos</a></li>
-        <li><a href="#noticias">Noticias</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#procedimientos">Procedimientos</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
         <li><a href="#idiomas">Idiomas</a></li>
       </ul>
     </nav>
-  </header>
+  </aside>
 
-  <main>
-    <section id="nosotros">
-      <h2>Nosotros</h2>
-      <details>
-        <summary>¿Quiénes somos?</summary>
-        <p>Somos un centro médico integral que ofrece atención especializada con enfoque humano, comunitario y cultural.</p>
-      </details>
-      <details>
-        <summary>Preguntas frecuentes</summary>
-        <ul>
-          <li>¿Atienden con cita previa? Sí, por WhatsApp o presencial.</li>
-          <li>¿Aceptan seguros médicos? Sí, dependiendo del convenio.</li>
-          <li>¿Tienen atención pediátrica? Sí, con especialistas certificados.</li>
-        </ul>
-      </details>
-      <h3>Misión</h3>
-      <p>Brindar atención médica integral con calidad humana, profesionalismo y respeto por la diversidad cultural.</p>
-      <h3>Visión</h3>
-      <p>Ser un referente en salud comunitaria en la región de Riobamba, integrando medicina moderna y ancestral.</p>
-      <h3>Objetivo</h3>
-      <p>Promover el bienestar físico, emocional y espiritual de nuestros pacientes.</p>
-    </section>
-
+  <main class="contenido">
     <section id="especialidades">
       <h2>Especialidades</h2>
-      <ul>
-        <li><strong>Medicina General:</strong> chequeos, control de presión, orientación médica básica.</li>
-        <li><strong>Medicina Familiar:</strong> atención continua a grupos familiares, prevención y seguimiento.</li>
-        <li><strong>Medicina Interna:</strong> diagnóstico y tratamiento de enfermedades crónicas y sistémicas.</li>
-        <li><strong>Medicina Andina:</strong> terapias ancestrales, uso de plantas medicinales, armonización energética.</li>
-        <li><strong>Medicina Clínica:</strong> atención ambulatoria, control de síntomas comunes.</li>
-        <li><strong>Laboratorio Clínico:</strong> análisis de sangre, orina, pruebas rápidas.</li>
-        <li><strong>Neurología y Neurocirugía:</strong> evaluación de sistema nervioso, cirugías especializadas.</li>
-        <li><strong>Dermatología:</strong> tratamiento de piel, acné, alergias, lesiones.</li>
-        <li><strong>Odontología:</strong> limpieza, restauraciones, exodoncias, ortodoncia.</li>
-        <li><strong>Pediatría:</strong> control de crecimiento, vacunas, enfermedades infantiles.</li>
-        <li><strong>Cirugía General:</strong> procedimientos quirúrgicos ambulatorios y hospitalarios.</li>
-        <li><strong>Farmacia:</strong> venta de medicamentos, orientación farmacológica.</li>
-      </ul>
-      <p>📷 <em>Procedimientos médicos</em></p>
-    </section>
-
-    <section id="servicios">
-      <h2>Servicios</h2>
-      <ul>
-        <li>Laboratorio clínico con resultados rápidos y confiables</li>
-        <li>Farmacia con medicamentos certificados y atención personalizada</li>
-      </ul>
+      <details>
+        <summary>Medicina General</summary>
+        <p><strong>Español:</strong> Atención básica y chequeos generales.<br>
+           <strong>Kichwa:</strong> Ñawpak kawsaykunapak rikuchik.<br>
+           <strong>English:</strong> Basic care and general checkups.</p>
+      </details>
+      <!-- Repetir para cada especialidad -->
     </section>
 
     <section id="medicos">
-      <h2>Médicos que forman parte del centro</h2>
-      <p>Próximamente se incluirá el perfil de cada profesional con su especialidad, experiencia y horarios de atención.</p>
+      <h2>Médicos</h2>
+      <div class="medico">
+        <img src="assets/medico1.jpg" alt="Dra. María">
+        <h3>Dra. María Tipán</h3>
+        <p>Especialista en Medicina Familiar</p>
+      </div>
+      <!-- Más médicos -->
     </section>
 
-    <section id="noticias">
-      <h2>Noticias</h2>
-      <p>📷 <em>Procedimientos médicos</em></p>
+    <section id="procedimientos">
+      <h2>Procedimientos Médicos</h2>
+      <p>📷 Imágenes y descripción de tratamientos</p>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>📍 San Pedro de Licán – Riobamba, Ecuador</p>
-      <p>📞 WhatsApp: +593 99 316 4499</p>
-      <p>📧 Email: contacto@fgcmedical.com</p>
+    <section id="videos">
+      <h2>Videos</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/oMbAdM6g-sM" frameborder="0" allowfullscreen></iframe>
     </section>
 
-    <section id="redes">
-      <h3>Síguenos en redes sociales</h3>
-      <p>
-        <a href="https://www.facebook.com/FGCMedical" target="_blank">🌐 Facebook: FGC Medical</a><br>
-        <a href="https://www.instagram.com/fgcmedical_fpz" target="_blank">📸 Instagram: @fgcmedical_fpz</a><br>
-        <a href="https://www.tiktok.com/@fgcmedical" target="_blank">🎵 TikTok: FGC Medical</a>
-      </p>
+    <section id="galeria">
+      <h2>Galería del Centro</h2>
+      <img src="assets/centro1.jpg" alt="Centro Médico">
+      <img src="assets/centro2.jpg" alt="Sala de espera">
+    </section>
+
+    <section id="ubicacion">
+      <h2>Ubicación</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 
     <section id="idiomas">
-      <h2>🌐 Idiomas</h2>
-      <p><strong>Español:</strong> Bienvenido al Centro de Especialidades Médicas FGC Medical</p>
-      <p><strong>English:</strong> Welcome to FGC Medical Specialty Center</p>
+      <h2>Idiomas</h2>
+      <p><strong>Español:</strong> Bienvenido al Centro FGC Medical</p>
       <p><strong>Kichwa:</strong> Ñukanchik FGC Medical llaktapi kawsaykunata yanapachishun</p>
+      <p><strong>English:</strong> Welcome to FGC Medical Specialty Center</p>
     </section>
   </main>
-
-  <footer style="background-color:#f2f2f2; padding:20px; text-align:center;">
-    <p>© 2025 FGC Medical – Todos los derechos reservados</p>
-  </footer>
 </body>
 </html>
