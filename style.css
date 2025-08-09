@@ -7,14 +7,14 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #eaf6fc; /* celeste claro de fondo */
+  color: #000; /* texto en negro */
   line-height: 1.6;
 }
 
 /* 🔹 Barra superior */
 .top-bar {
-  background-color: #004d40;
+  background-color: #003366; /* azul oscuro */
   color: #fff;
   padding: 10px 20px;
   font-size: 14px;
@@ -41,7 +41,7 @@ body {
   justify-content: space-between;
   background-color: #ffffff;
   padding: 15px 20px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 3px solid #66ccff; /* celeste brillante */
   flex-wrap: wrap;
 }
 
@@ -57,13 +57,13 @@ body {
 
 .main-nav a {
   text-decoration: none;
-  color: #004d40;
+  color: #003366; /* azul oscuro */
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .main-nav a:hover {
-  color: #00796b;
+  color: #66ccff; /* efecto celeste al pasar mouse */
 }
 
 /* 🔹 Buscador */
@@ -75,12 +75,12 @@ body {
 
 .search-bar input {
   padding: 6px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #003366;
   border-radius: 4px;
 }
 
 .search-bar button {
-  background-color: #004d40;
+  background-color: #003366;
   color: #fff;
   border: none;
   padding: 6px 10px;
@@ -89,7 +89,8 @@ body {
 }
 
 .search-bar button:hover {
-  background-color: #00796b;
+  background-color: #66ccff;
+  color: #000;
 }
 
 /* 🔹 Secciones */
@@ -100,7 +101,7 @@ body {
 }
 
 .section h2 {
-  color: #004d40;
+  color: #003366;
   margin-bottom: 20px;
   font-size: 28px;
 }
@@ -122,7 +123,7 @@ body {
   width: 100%;
   max-width: 400px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 /* 🔹 Mapa y redes */
@@ -159,7 +160,7 @@ ul {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .medico-card img {
@@ -175,7 +176,7 @@ ul {
 
 /* 🔹 Footer */
 footer {
-  background-color: #004d40;
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 15px;
