@@ -550,6 +550,93 @@ footer {
   text-transform: uppercase;
   color: black;
 }
+/* 🔹 Logo alineado a la izquierda */
+.header-top {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+/* 🔹 Nombre del centro y refrán centrados */
+.presentacion {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.presentacion h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.refran {
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+  margin-top: 10px;
+}
+
+/* 🔹 Contenedor de barra celeste + buscador */
+.barra-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+/* 🔹 Barra celeste con navegación centrada */
+.barra-celeste {
+  background-color: #66ccff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* 🔹 Buscador alineado a la derecha */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #003366;
+}
+
+.search-bar button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
 
 .refran {
   font-size: 16px;
