@@ -26,33 +26,36 @@
   
 <header class="main-header">
   <!-- 🔹 Logo alineado a la izquierda -->
-  <div class="header-top">
+  <div class="header-top" style="display: flex; justify-content: flex-start;">
     <img src="assets/images/Logo.png" alt="Logo FGC Medical" class="logo">
   </div>
 
   <!-- 🔹 Nombre del centro y refrán centrados -->
-  <div class="presentacion">
+  <div class="presentacion" style="text-align: center;">
     <h2>CENTRO DE ESPECIALIDADES MÉDICAS FGC MEDICAL</h2>
     <p class="refran">Su salud en buenas manos</p>
   </div>
 
-  <!-- 🔹 Barra celeste con navegación centrada + buscador a la derecha -->
-  <nav class="barra-celeste">
-    <ul class="nav-links">
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#nosotros">Nosotros</a></li>
-      <li><a href="#especialidades">Especialidades</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#medicos">Médicos</a></li>
-    </ul>
+  <!-- 🔹 Barra celeste con navegación centrada + buscador separado a la derecha -->
+  <div style="display: flex; align-items: center;">
+    <nav class="barra-celeste" style="flex: 1; display: flex; justify-content: center; background-color: #66ccff; padding: 12px 20px; border-radius: 8px;">
+      <ul class="nav-links" style="display: flex; gap: 15px; list-style: none; margin: 0; padding: 0;">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#especialidades">Especialidades</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#medicos">Médicos</a></li>
+      </ul>
+    </nav>
 
-    <div class="search-bar">
-      <input type="text" placeholder="Buscar...">
-      <button><i class="fas fa-search"></i></button>
+    <div class="search-bar" style="margin-left: 40px;">
+      <input type="text" placeholder="Buscar..." style="padding: 6px 10px; border-radius: 4px; border: 1px solid #003366;">
+      <button style="background-color: #003366; color: white; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer;">
+        <i class="fas fa-search"></i>
+      </button>
     </div>
-  </nav>
+  </div>
 </header>
-
 
   <!-- 🔹 Sección INICIO -->
   <section id="inicio" class="section">
