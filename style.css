@@ -213,3 +213,40 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+.logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin-left: 20px;
+}
+
+.logo-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.presentacion {
+  text-align: left;
+}
+
+.presentacion h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.refran {
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+  font-family: Arial, sans-serif;
+  margin: 5px 0 0 0;
+}
