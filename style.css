@@ -5,20 +5,20 @@ body {
   background-color: #F9F9F9;
   color: #333333;
 }
-
-/* 🔹 Barra superior */
+/* 🔹 Barra superior con redes sociales */
 .top-bar {
-  background-color: #001F3F; /* azul marino */
-  color: black;
+  background-color: #00BFD8; /* azul celeste, similar al logo */
+  color: white;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
 }
 
 .top-bar a {
-  color: black;
+  color: white;
   margin: 0 10px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* 🔹 Encabezado principal */
