@@ -670,3 +670,8 @@ footer {
   font-size: 14px;
 }
 
+.contenido-central {
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
