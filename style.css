@@ -70,3 +70,29 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+.top-bar {
+  background-color: #001F3F; /* azul marino */
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.slogan {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.site-title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
