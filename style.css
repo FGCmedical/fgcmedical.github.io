@@ -46,10 +46,10 @@ body {
 }
 
 .logo {
-  width: 100px;     /* Cambiá el valor según el tamaño que querés */
-  height: auto;
+  width: 80px;        /* Tamaño pequeño y profesional */
+  height: auto;       /* Mantiene proporción */
   display: block;
-  margin: 0 auto;   /* Centra el logo si querés */
+  margin-left: 20px;  /* Alineado a la izquierda */
 }
 
 .main-nav ul {
