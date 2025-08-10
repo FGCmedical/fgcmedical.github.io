@@ -201,3 +201,19 @@ footer {
   font-weight: bold;
   font-size: 14px;
 }
+/* 🔹 Barra de navegación con color del logo */
+.barra-celeste {
+  background-color: #00BFD8; /* celeste azulado del logo */
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
