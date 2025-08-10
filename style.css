@@ -168,3 +168,32 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+/* 🔹 Barra celeste para botones de acción */
+.barra-botones {
+  background-color: #00BFD8; /* celeste armonioso con el logo */
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: fit-content;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Botones dentro de la barra */
+.barra-botones button {
+  background-color: white;
+  color: #006699;
+  border: 2px solid #006699;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.barra-botones button:hover {
+  background-color: #006699;
+  color: white;
+}
