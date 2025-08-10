@@ -250,3 +250,25 @@ footer {
   font-family: Arial, sans-serif;
   margin: 5px 0 0 0;
 }
+/* 🔹 Botones de acción debajo del texto institucional */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #218838;
+}
