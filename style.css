@@ -185,3 +185,19 @@ footer {
   background-color: #006699; /* azul profundo al pasar el mouse */
 }
 
+/* 🔹 Barra celeste para menú de navegación */
+.barra-celeste {
+  background-color: #00A8A8; /* color del logo */
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
