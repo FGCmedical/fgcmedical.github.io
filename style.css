@@ -30,10 +30,11 @@ header {
   border-bottom: 4px solid #00A8A8;
 }
 
-/* 🔹 Logo */
 .logo {
-  max-height: 80px;
+  width: 118px;
+  height: 118px;
   margin-top: 20px;
+  object-fit: contain;
 }
 
 /* 🔹 Título y refrán centrados */
