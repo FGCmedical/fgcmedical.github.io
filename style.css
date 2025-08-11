@@ -144,7 +144,7 @@ header {
   margin: 0 auto;
 }
 
-/* 🔹 Botones */
+/* 🔹 Botones generales */
 button, .btn {
   background-color: #00A8A8;
   color: white;
@@ -160,15 +160,7 @@ button:hover, .btn:hover {
   background-color: #006699;
 }
 
-/* 🔹 Footer */
-footer {
-  background-color: #006699;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
-/* 🔹 Botones dentro de la barra */
+/* 🔹 Botones dentro de la barra de acción */
 .barra-botones button {
   background-color: #00A8A8; /* color del logo */
   color: white;
@@ -185,22 +177,6 @@ footer {
   background-color: #006699; /* azul profundo al pasar el mouse */
 }
 
-/* 🔹 Barra celeste para menú de navegación */
-.barra-celeste {
-  background-color: #00A8A8; /* color del logo */
-  padding: 12px 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-}
 /* 🔹 Barra de navegación con color del logo */
 .barra-celeste {
   background-color: #00BFD8; /* celeste azulado del logo */
@@ -211,9 +187,20 @@ footer {
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* 🔹 Enlaces del menú de navegación */
 .nav-links a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
+}
+
+/* 🔹 Footer */
+footer {
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
