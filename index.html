@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
 
   <!-- 🔹 Barra superior con redes sociales y ubicación -->
   <div class="top-bar">
@@ -208,4 +207,15 @@
   </footer>
 
 </body>
+  <script>
+  function mostrarIdioma(id) {
+    const idiomas = document.querySelectorAll('.idioma');
+    idiomas.forEach(el => el.style.display = 'none');
+    document.getElementById('contenido-' + id).style.display = 'block';
+  }
+
+  // Mostrar español por defecto al cargar la página
+  window.onload = () => mostrarIdioma('es');
+</script>
+
 </html>
